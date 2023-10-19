@@ -8,6 +8,13 @@ body {
     height: 100vh;
 }
 
+main {
+    height: calc(100% - var(--header-height));
+    display: flex;
+}
+
+/**************************** HEADER *******************************/
+
 header {
     background-color: #F8F9FA;
     height: var(--header-height);
@@ -15,16 +22,29 @@ header {
     justify-content: space-between;
 }
 
-main {
-    height: calc(100% - var(--header-height));
-    display: flex;
+header img {
+    width: 100%;
 }
 
+.my_control_background {
+    background-color: #E5E5E5;
+}
+
+.fa-bell {
+    color: #FF8F00;
+}
+
+/**************************** LEFT NAV *******************************/
+
 main #left_nav {
-    background: teal;
+    background: #051E34;
     height: 100%;
     width: var(--navbarleft-width);
+    background-image: url(../img/sidebar-bg.png);
+    color: white;
 }
+
+/**************************** CENTER CONTENT *******************************/
 
 main #center_content {
     height: 100%;
@@ -32,6 +52,4 @@ main #center_content {
     background: red;
 }
 
-.my_control_background {
-    background-color: #E5E5E5;
-}
+

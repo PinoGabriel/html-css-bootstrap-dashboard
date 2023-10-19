@@ -18,35 +18,34 @@
 
 
     <!------------------- INIZIO HEADER ----------------------->
-    <header class="container-fluid m-0 p-0">
-        <nav class="w-100 navbar navbar-expand bg-body-tertiary">
+    <header class="container-fluid d-flex align-items-center m-0 p-0">
             <div class="container-fluid bg-white">
-                <div class="w-100 row justify-content-center">
-                    <div class="col-2"><a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="logo"></a></div>
-                    <div class="col-8">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-1"><a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="logo"></a></div>
+                    <div class="col-10">
                         <form class="d-flex" role="search">
                             <input class="form-control my_control_background me-2" type="search"
                                 placeholder="Prova a cercare: Lezioni a Laravel" aria-label="Search">
                         </form>
                     </div>
-                    <div class="col-2">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
-                            <li class="nav-item">
+                    <div class="col-1">
+                        <ul class="navbar-nav flex-row me-auto mb-2 mb-lg-0 justify-content-end">
+                            <li class="nav-item px-2">
                                 <a class="nav-link active" aria-current="page" href="#">
                                     <i class="fa-solid fa-list-ul"></i>
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item px-2">
                                 <a class="nav-link active" aria-current="page" href="#">
                                     <i class="fa-solid fa-circle-question"></i>
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item px-2">
                                 <a class="nav-link active" aria-current="page" href="#">
                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item ps-2">
                                 <a class="nav-link active" aria-current="page" href="#">
                                     <i class="fa-solid fa-bell"></i>
                                 </a>
@@ -55,7 +54,6 @@
                     </div>
                 </div>
             </div>
-        </nav>
     </header>
 
 
@@ -67,7 +65,15 @@
 
         <!------------------- INIZIO LEFT NAV ----------------------->
         <section id="left_nav">
-
+            <div class="navbar">
+                <div class="container flex-column">
+                    <div class="d-flex align-items-center">
+                        <a class="navbar-brand text-white" href="#"><i class="fa-solid fa-house"></i></a>
+                        <div>Home</div>
+                    </div>
+                  
+                </div>
+            </div>
         </section>
 
 
