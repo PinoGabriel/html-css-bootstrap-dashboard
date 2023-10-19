@@ -54,6 +54,16 @@ main #center_content {
     height: 100%;
     width: calc(100% - var(--navbarleft-width));
     background: red;
+    overflow: auto;
+}
+
+#my_background_cc {
+    background-color: #1B72E8;
+    color: white;
+}
+
+.my_badge_bg {
+    background-color: #165BBA;
 }
 
 
