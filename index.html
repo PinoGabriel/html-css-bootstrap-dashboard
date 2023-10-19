@@ -19,41 +19,41 @@
 
     <!------------------- INIZIO HEADER ----------------------->
     <header class="container-fluid d-flex align-items-center m-0 p-0">
-            <div class="container-fluid bg-white">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-1"><a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="logo"></a></div>
-                    <div class="col-10">
-                        <form class="d-flex" role="search">
-                            <input class="form-control my_control_background me-2" type="search"
-                                placeholder="Prova a cercare: Lezioni a Laravel" aria-label="Search">
-                        </form>
-                    </div>
-                    <div class="col-1">
-                        <ul class="navbar-nav flex-row me-auto mb-2 mb-lg-0 justify-content-end">
-                            <li class="nav-item px-2">
-                                <a class="nav-link active" aria-current="page" href="#">
-                                    <i class="fa-solid fa-list-ul"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link active" aria-current="page" href="#">
-                                    <i class="fa-solid fa-circle-question"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link active" aria-current="page" href="#">
-                                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item ps-2">
-                                <a class="nav-link active" aria-current="page" href="#">
-                                    <i class="fa-solid fa-bell"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+        <div class="container-fluid bg-white">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-1"><a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="logo"></a></div>
+                <div class="col-10">
+                    <form class="d-flex" role="search">
+                        <input class="form-control my_control_background me-2" type="search"
+                            placeholder="Prova a cercare: Lezioni a Laravel" aria-label="Search">
+                    </form>
+                </div>
+                <div class="col-1">
+                    <ul class="navbar-nav flex-row me-auto mb-2 mb-lg-0 justify-content-end">
+                        <li class="nav-item px-2">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <i class="fa-solid fa-list-ul"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <i class="fa-solid fa-circle-question"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item ps-2">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <i class="fa-solid fa-bell"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </div>
     </header>
 
 
@@ -87,7 +87,7 @@
                             <div>Admin</div>
                         </div>
                     </div>
-                  
+
                 </div>
             </div>
         </section>
@@ -100,8 +100,8 @@
             <div id="my_background_cc" class="container-fluid py-3">
                 <div class="row">
                     <div class="col-6">
-                            <h2 class="fs-1 d-inline-block">Boolean</h2> 
-                            <span class="badge rounded-pill my_badge_bg">Piano blaze</span>               
+                        <h2 class="fs-1 d-inline-block">Boolean</h2>
+                        <span class="badge rounded-pill my_badge_bg">Piano blaze</span>
                         <div>
                             <span class="badge rounded-pill my_badge_bg">3 app</span>
                             <i class="fa-solid fa-angles-right"></i>
@@ -114,7 +114,29 @@
                         <div>Studenti online negli ultimi 30 minuti</div>
                         <div class="fs-2">125</div>
                     </div>
-                    <div class="col-3"></div>
+                    <div class="col-3 d-flex justify-content-end">
+                        <div>Nuovo Studente</div>
+
+                        <div class="px-3">
+                            <div class="my_botton_canvas">
+                            <i class="fa-solid fa-plus" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
+                            </div>
+
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    ...
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </section>

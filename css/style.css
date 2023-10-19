@@ -66,4 +66,14 @@ main #center_content {
     background-color: #165BBA;
 }
 
+.fa-plus {
+    font-size: 20px;
+}
+
+.my_botton_canvas {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 
