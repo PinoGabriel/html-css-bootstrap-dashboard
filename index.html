@@ -75,21 +75,21 @@
                     <div class="h-50">
                         <div class="d-flex align-items-center">
                             <a class="navbar-brand text-white" href="#"><i class="fa-solid fa-house"></i></a>
-                            <div>Home</div>
+                            <div class="d-none d-md-block">Home</div>
                         </div>
                         <div class="d-flex align-items-center">
                             <a class="navbar-brand text-white" href="#"><i class="fa-solid fa-chart-simple"></i></a>
-                            <div>Stats</div>
+                            <div class="d-none d-md-block">Stats</div>
                         </div>
                         <div class="d-flex align-items-center">
                             <a class="navbar-brand text-white" href="#"><i class="fa-solid fa-signal"></i></a>
-                            <div>Signal</div>
+                            <div class="d-none d-md-block">Signal</div>
                         </div>
                     </div>
                     <div class="h-50 d-flex align-items-end">
                         <div class="d-flex align-items-center">
                             <a class="navbar-brand text-white" href="#"><i class="fa-solid fa-gear"></i></a>
-                            <div>Admin</div>
+                            <div class="d-none d-md-block">Admin</div>
                         </div>
                     </div>
 
@@ -105,8 +105,8 @@
             <!------------------- INIZIO PRIMA SECTION ----------------------->
             <section id="my_blue_section">
                 <div class="container-fluid py-3">
-                    <div class="row">
-                        <div class="col-6">
+                    <div class="row flex-column flex-sm-row">
+                        <div class="col-6 order-1 order-sm-0 py-3">
                             <h2 class="fs-1 d-inline-block">Boolean</h2>
                             <span class="badge rounded-pill my_badge_bg">Piano blaze</span>
                             <div>
@@ -117,14 +117,15 @@
                                 <span class="badge rounded-pill my_badge_bg">Boolean biog app</span>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-4 order-1 order-sm-0 py-3">
                             <div>Studenti online negli ultimi 30 minuti</div>
                             <div class="fs-2">125</div>
                         </div>
-                        <div class="col-3 d-flex justify-content-end">
+                        <div class="col-2 d-flex py-3">
                             <div>Nuovo Studente</div>
 
                             <div class="px-3">
+                                
                                 <div class="my_botton_canvas">
                                 <i class="fa-solid fa-plus" type="button" data-bs-toggle="offcanvas"
                                 data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
@@ -264,7 +265,7 @@
             <section id="my_white_section">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-8">
+                        <div class="col-12 col-md-8">
                             <div class="card my-4">
                                 <div class="card-header fs-3 fw-semibold">
                                   Prossime classi
@@ -280,18 +281,18 @@
                                                     <tr class="my_list_font">
                                                         <th class="my_w_0" scope="col">Nome</th>
                                                         <th class="my_w_auto" scope="col"></th>
-                                                        <th class="my_w_15" scope="col" class="text-center">Data Inizio</th>
-                                                        <th class="my_w_10" scope="col" class="text-center">Roi</th>
-                                                        <th class="my_w_10" scope="col" class="text-center">Stato</th>
-                                                        <th class="my_w_15" scope="col" class="text-center">Azioni</th>
+                                                        <th class="my_w_15 text-center d-none d-md-table-cell" scope="col">Data Inizio</th>
+                                                        <th class="my_w_10 text-center d-none d-md-table-cell" scope="col">Roi</th>
+                                                        <th class="my_w_10 text-center" scope="col">Stato</th>
+                                                        <th class="my_w_15 text-center" scope="col">Azioni</th>
                                                     </tr>
                                                     </thead>
                                                     <tbody>
                                                     <tr>
                                                         <th scope="row"><img src="./img/class-avatar-removebg-preview.png" alt=""></th>
                                                         <td>Classe 75</td>
-                                                        <td class="text-center">15 Feb 2021</td>
-                                                        <td class="text-center">20%</td>
+                                                        <td class="d-none d-md-table-cell text-center">15 Feb 2021</td>
+                                                        <td class="d-none d-md-table-cell text-center">20%</td>
                                                         <td class="text-center"><span class="badge text-bg-success">Done</span></td>
                                                         <td class="text-center">
                                                             <div class="d-flex justify-content-center">
@@ -306,8 +307,8 @@
                                                     <tr>
                                                         <th scope="row"><img src="./img/class-avatar-removebg-preview.png" alt=""></th>
                                                         <td>Classe 76</td>
-                                                        <td class="text-center">15 Feb 2021</td>
-                                                        <td class="text-center">20%</td>
+                                                        <td class="text-center d-none d-md-table-cell">15 Feb 2021</td>
+                                                        <td class="text-center d-none d-md-table-cell">20%</td>
                                                         <td class="text-center"><span class="badge text-bg-success">Done</span></td>
                                                         <td class="text-center">
                                                             <div class="d-flex justify-content-center">
@@ -322,8 +323,8 @@
                                                     <tr>
                                                         <th scope="row"><img src="./img/class-avatar-removebg-preview.png" alt=""></th>
                                                         <td>Classe 77</td>
-                                                        <td class="text-center">15 Feb 2021</td>
-                                                        <td class="text-center">20%</td>
+                                                        <td class="text-center d-none d-md-table-cell">15 Feb 2021</td>
+                                                        <td class="text-center d-none d-md-table-cell">20%</td>
                                                         <td class="text-center"><span class="badge bg-warning">Warning</span></td>
                                                         <td class="text-center">
                                                             <div class="d-flex justify-content-center">
@@ -338,8 +339,8 @@
                                                     <tr>
                                                         <th scope="row"><img src="./img/class-avatar-removebg-preview.png" alt=""></th>
                                                         <td>Classe 78</td>
-                                                        <td class="text-center">15 Feb 2021</td>
-                                                        <td class="text-center">20%</td>
+                                                        <td class="text-center d-none d-md-table-cell">15 Feb 2021</td>
+                                                        <td class="text-center d-none d-md-table-cell">20%</td>
                                                         <td class="text-center"><span class="badge text-bg-success">Done</span></td>
                                                         <td class="text-center">
                                                             <div class="d-flex justify-content-center">
@@ -354,8 +355,8 @@
                                                     <tr>
                                                         <th scope="row"><img src="./img/class-avatar-removebg-preview.png" alt=""></th>
                                                         <td>Classe 79</td>
-                                                        <td class="text-center">15 Feb 2021</td>
-                                                        <td class="text-center">20%</td>
+                                                        <td class="text-center d-none d-md-table-cell">15 Feb 2021</td>
+                                                        <td class="text-center d-none d-md-table-cell">20%</td>
                                                         <td class="text-center"><span class="badge text-bg-danger">failed</span></td>
                                                         <td class="text-center">
                                                             <div class="d-flex justify-content-center">
@@ -370,8 +371,8 @@
                                                     <tr>
                                                         <th scope="row"><img src="./img/class-avatar-removebg-preview.png" alt=""></th>
                                                         <td>Classe 80</td>
-                                                        <td class="text-center">15 Feb 2021</td>
-                                                        <td class="text-center">20%</td>
+                                                        <td class="text-center d-none d-md-table-cell">15 Feb 2021</td>
+                                                        <td class="text-center d-none d-md-table-cell">20%</td>
                                                         <td class="text-center"><span class="badge text-bg-success">Done</span></td>
                                                         <td class="text-center">
                                                             <div class="d-flex justify-content-center">
@@ -386,8 +387,8 @@
                                                     <tr>
                                                         <th scope="row"><img src="./img/class-avatar-removebg-preview.png" alt=""></th>
                                                         <td>Classe 81</td>
-                                                        <td class="text-center">15 Feb 2021</td>
-                                                        <td class="text-center">20%</td>
+                                                        <td class="text-center d-none d-md-table-cell">15 Feb 2021</td>
+                                                        <td class="text-center d-none d-md-table-cell">20%</td>
                                                         <td class="text-center"><span class="badge text-bg-danger">failed</span></td>
                                                         <td class="text-center">
                                                             <div class="d-flex justify-content-center">
@@ -402,8 +403,8 @@
                                                     <tr>
                                                         <th scope="row"><img src="./img/class-avatar-removebg-preview.png" alt=""></th>
                                                         <td>Classe 82</td>
-                                                        <td class="text-center">15 Feb 2021</td>
-                                                        <td class="text-center">20%</td>
+                                                        <td class="text-center d-none d-md-table-cell">15 Feb 2021</td>
+                                                        <td class="text-center d-none d-md-table-cell">20%</td>
                                                         <td class="text-center"><span class="badge text-bg-success">Done</span></td>
                                                         <td class="text-center">
                                                             <div class="d-flex justify-content-center">
@@ -481,7 +482,7 @@
 
 
                         <!---------- INIZIO TODO ---------------->
-                        <div class="col-4">
+                        <div class="col-12 col-md-4">
                             <div class="card my-4">
                                 <div class="card-header fs-3 fw-semibold">
                                   Todo
