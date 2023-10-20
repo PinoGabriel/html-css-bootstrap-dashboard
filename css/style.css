@@ -13,6 +13,22 @@ main {
     display: flex;
 }
 
+.my_w_0 {
+    width: 0;
+}
+
+.my_w_15 {
+    width: 15%;
+}
+
+.my_w_10 {
+    width: 10%;
+}
+
+.my_w_auto {
+    width: auto;
+}
+
 /**************************** HEADER *******************************/
 
 header {

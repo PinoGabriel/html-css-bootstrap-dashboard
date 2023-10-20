@@ -125,12 +125,17 @@
                                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                                     aria-labelledby="offcanvasRightLabel">
                                     <div class="offcanvas-header">
-                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="offcanvas-body">
-                                        ...
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-6">Nome</div>
+                                                <div class="col-6">Cognome</div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -158,12 +163,12 @@
                                                 <table class="table">
                                                     <thead>
                                                     <tr class="my_list_font">
-                                                        <th style="width: 0;" scope="col">Nome</th>
-                                                        <th style="width: auto;" scope="col"></th>
-                                                        <th style="width: 15%;" scope="col" class="text-center">Data Inizio</th>
-                                                        <th style="width: 10%;" scope="col" class="text-center">Roi</th>
-                                                        <th style="width: 10%;" scope="col" class="text-center">Stato</th>
-                                                        <th style="width: 15%;" scope="col" class="text-center">Azioni</th>
+                                                        <th class="my_w_0" scope="col">Nome</th>
+                                                        <th class="my_w_auto" scope="col"></th>
+                                                        <th class="my_w_15" scope="col" class="text-center">Data Inizio</th>
+                                                        <th class="my_w_10" scope="col" class="text-center">Roi</th>
+                                                        <th class="my_w_10" scope="col" class="text-center">Stato</th>
+                                                        <th class="my_w_15" scope="col" class="text-center">Azioni</th>
                                                     </tr>
                                                     </thead>
                                                     <tbody>
@@ -307,7 +312,7 @@
 
                             
                             <div class="card my-4">
-                                <div class="card-header">
+                                <div class="card-header fs-3 fw-semibold">
                                   F.A.Q.
                                 </div>
                                 <ul class="list-group list-group-flush">
@@ -361,23 +366,57 @@
 
                         <div class="col-4">
                             <div class="card my-4">
-                                <div class="card-header">
-                                  Featured
+                                <div class="card-header fs-3 fw-semibold">
+                                  Todo
                                 </div>
                                 <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">An item</li>
-                                  <li class="list-group-item">A second item</li>
-                                  <li class="list-group-item">A third item</li>
+                                    <li class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="1" id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Kickoff nuove classi
+                                                        </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="2" id="flexCheckDefault1">
+                                                    <label class="form-check-label" for="flexCheckDefault1">
+                                                        Lezione su Bootstrap 5 in classe
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="3" id="flexCheckDefault3">
+                                                    <label class="form-check-label" for="flexCheckDefault3">
+                                                        Controllare username github studenti
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>          
                                 </ul>
                             </div>
                             <div class="card my-4">
-                                <div class="card-header">
-                                  Featured
-                                </div>
                                 <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">An item</li>
-                                  <li class="list-group-item">A second item</li>
-                                  <li class="list-group-item">A third item</li>
+                                  <li class="list-group-item">
+                                    <img class="img-fluid" src="./img/stats.jpeg" alt="stats">
+                                  </li>
+                                  <li class="list-group-item">Gennaio: 1200</li>
+                                  <li class="list-group-item">Febbraio: 800</li>
+                                  <li class="list-group-item">Marzo: 1500</li>
+                                  <li class="list-group-item"><a href="#">Visualizza report approfondito</a></li>
                                 </ul>
                             </div>
                         </div>
