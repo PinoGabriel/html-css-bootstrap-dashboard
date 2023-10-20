@@ -46,6 +46,10 @@ header {
     color: #FF8F00;
 }
 
+.my_logo {
+    max-width: 3rem;
+}
+
 /**************************** LEFT NAV *******************************/
 
 main #left_nav {

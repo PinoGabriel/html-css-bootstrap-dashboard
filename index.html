@@ -18,7 +18,10 @@
     <header class="container-fluid d-flex align-items-center m-0 p-0">
         <div class="container-fluid bg-white">
             <div class="row align-items-center">
-                <div class="col-auto"><a class="navbar-brand" href="#"><img class="img-fluid" src="./img/logo.svg" alt="logo"></a></div>
+                <div class="col-auto">
+                    <a class="navbar-brand" href="#"><img class="img-fluid d-none d-md-block" src="./img/logo.svg" alt="logo"></a>
+                    <a class="navbar-brand" href="#"><img class="my_logo d-md-none" src="./img/mobile-logo.png" alt="mobile-logo"></a>
+                </div>
                 <div class="col">
                     <form class="d-flex" role="search">
                         <input class="form-control my_control_background me-2" type="search"
@@ -27,17 +30,17 @@
                 </div>
                 <div class="col-auto">
                     <ul class="navbar-nav flex-row me-auto mb-2 mb-lg-0">
-                        <li class="nav-item px-2">
+                        <li class="nav-item px-2 d-none d-md-block">
                             <a class="nav-link active" aria-current="page" href="#">
                                 <i class="fa-solid fa-list-ul"></i>
                             </a>
                         </li>
-                        <li class="nav-item px-2">
+                        <li class="nav-item px-2 d-none d-md-block">
                             <a class="nav-link active" aria-current="page" href="#">
                                 <i class="fa-solid fa-circle-question"></i>
                             </a>
                         </li>
-                        <li class="nav-item px-2">
+                        <li class="nav-item px-2 d-none d-md-block">
                             <a class="nav-link active" aria-current="page" href="#">
                                 <i class="fa-solid fa-ellipsis-vertical"></i>
                             </a>
