@@ -90,6 +90,7 @@ main #center_content {
     padding: 15px;
     border-radius: 5px;
     display: inline-block;
+    transition: 0.2s;
 }
 
 .my_list_font {
@@ -106,12 +107,19 @@ li img {
    padding: 0.15rem 0.45rem;
 }
 
+/**************************** HOVER *******************************/
+
+.my_botton_canvas:hover {
+    background-color: white;
+    color: black;
+}
+
 
 /**************************** MEDIA QUERY *******************************/
 
 
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:767px) {
 
     main #left_nav {
         width: var(--navbarleft-width-mobile);
